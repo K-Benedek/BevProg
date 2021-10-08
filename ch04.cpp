@@ -22,10 +22,12 @@ int main(){
 		switch (unit){
 			case 'c':
 				num=num/m_to_cm;
+			break;
 			case 'i':{
 				num=num*in_to_cm;
 				num=num/m_to_cm;
 				}
+			break;
 			case 'f':{
 				num=num*ft_to_in;
 				num=num*in_to_cm;
