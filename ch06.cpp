@@ -167,7 +167,7 @@ double expression()
 int main()
 try
 {
-	cout<<"Welcome to simple calculator./n Please using +;-;/;(;)"<<endl;
+	cout<<"Welcome to simple calculator./n"<<" Please using +;-;/;(;)"<<endl;
     double val=0;
     while (cin) {
         Token t = ts.get();
